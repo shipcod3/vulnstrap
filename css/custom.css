@@ -1,0 +1,23 @@
+body {
+	padding: 30px;
+	background-image: url('../images/skullmask.jpg');
+}
+
+.navbar {
+	margin-bottom: 30px;
+	-webkit-box-shadow: 0 0 20px #D0D0D0;
+}
+
+.cmd{
+	margin-top: 40px;
+}
+
+.jumbopacity{
+	text-align:justify;
+	opacity:0.3;
+	-webkit-box-shadow: 0 0 60px #D0D0D0;
+}
+
+.inclusion{
+	font-size: 12px;
+}
