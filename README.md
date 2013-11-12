@@ -1,7 +1,7 @@
-vulnstrap
+VULNSTRAP
 =========
-
-\o/
+*   *
+ \o/
 
 vulnstrap is a responsive vulnerable web application made by Jay Turla (@shipcod3) and is powered by Boostrap.
 
