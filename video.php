@@ -48,24 +48,22 @@
       </div>
 
       <div class="jumbotron jumbopacity">
-        <form action="#" method="post">
-            <label><h2>MX Lookup<h2></label>
-            <input name="dig" type="text" class="form-control input-lg" placeholder="Enter domain"> <br />
-            <button type="submit" class="btn btn-lg btn-primary">Dig It!</button>
-        </form>
+        <img src="images/porn.png" />
+        
+        <p><a href="js/video-js.swf">Video JS</a></p>
 
-        <div class="cmd">
-          <?php
-            if(isset($_POST['dig'])){
-              echo "<pre>";
-              $cmd = ($_POST['dig']);
-              system("dig mx " . $cmd );
-              echo "</pre>";
-              die;
-            }   
-          ?>
-        </div>
-      </div> 
+        <p><a href="js/player.swf">JW Player</a></p>
+
+        <p><a href="js/clipboard.swf">SyntaxHighlighter</a></p>
+
+        <p><a href="js/swfupload.swf">SWFUpload</a></p>
+
+        <p><a href="js/plupload.flash.swf">Plupload</a></p>
+
+      </div>
+      </div>
+    </div>
+
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
   </body>

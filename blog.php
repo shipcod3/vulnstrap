@@ -36,7 +36,7 @@
                 <li class="divider"></li>
                 <li><a href="dig.php">Search MX record</a></li>
                 <li class="divider"></li>
-                <li><a href="js/video-js.swf">Watch Pr*n</a></li>
+                <li><a href="video.php">Watch Pr*n</a></li>
                 <li class="divider"></li>
                 <li><a href="dom.php">Prepare to be DOM'ed</a></li>
                 <li class="divider"></li>
@@ -51,14 +51,7 @@
         <?php
         
           $id = $_GET["id"];
-          $con = mysql_connect("server", "username", "password");
-          
-          if (!$con)
-          {
-            die('Could not connect to the MySQL Server :( ' . mysql_error());
-          }
-          
-          mysql_select_db("vulnex", $con);
+          include("config.php");
       
           $sql= "SELECT * FROM articles where id = $id";
 
