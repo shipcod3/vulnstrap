@@ -21,3 +21,12 @@ body {
 .inclusion{
 	font-size: 12px;
 }
+
+.flashfuzz{
+	display: block;
+	margin: 0 auto;
+}
+
+.imgcent{
+	max-width: 500px;
+}

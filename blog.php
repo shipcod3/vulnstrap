@@ -27,7 +27,7 @@
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li><a href="index.php">Home</a></li>
-            <li><a href="#">About Vulnstrap</a></li>
+            <li><a href="#about">About Vulnstrap</a></li>
             <li><a href="#">Credits</a></li>
             <li class="dropdown active">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Play Me! <b class="caret"></b></a>
@@ -46,6 +46,37 @@
           </ul>
         </div>
       </div>
+
+      <!-- Modal -->
+      <div class="modal fade" id="about" tabindex="-1" role="dialog" aria-labelledby="about" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">X</button>
+            <h1 class="modal-title" id="myModalLabel">About Vulnstrap</h1>
+          </div>
+          
+          <div class="modal-body">
+            <p>vulnstrap is a responsive vulnerable web application made by 
+              Jay Turla (@shipcod3) and is powered by Boostrap.</p>
+
+            <h3>Goals</h3>
+            <ul>
+              <li>For demo purposes</li>
+              <li>For practicing your Web Fu Skills</li>
+              <li>For demo purposes</li>
+              <li>To play web pentesting eventhough using your mobile phone or your tablet</li>
+              <li>For HP Fortify!</li>
+            </ul>
+
+          </div>
+      
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+          </div>
+        </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+      </div><!-- /.modal -->      
 
       <div class="jumbotron jumbopacity">
         <?php
