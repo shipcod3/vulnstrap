@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Simple Vulnerable App Using Bootstrap as its Design">
     <meta name="author" content="Jay Turla, @shipcod3">
-
     <title>Vulnstrap</title>
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/bootstrap-theme.css" rel="stylesheet">
@@ -54,7 +53,7 @@
           <div class="modal-content">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">X</button>
-            <h1 class="modal-title" id="myModalLabel">About Vulnstrap</h1>
+            <h1 class="modal-title" id="about">About Vulnstrap</h1>
           </div>
           
           <div class="modal-body">
@@ -79,9 +78,10 @@
         </div><!-- /.modal-dialog -->
       </div><!-- /.modal -->
 
-      <div class="jumbotron jumbopacity">
+      <div class="jumbotron jumbopacity swfalign">
              
         <img class="imgcent img-rounded" src="images/porn.png" />
+          
           <p><a href="js/video-js.swf">Video JS</a></p>
 
           <p><a href="js/player.swf">JW Player</a></p>
@@ -91,6 +91,7 @@
           <p><a href="js/swfupload.swf">SWFUpload</a></p>
 
           <p><a href="js/plupload.flash.swf">Plupload</a></p>
+      
       </div>
       </div>
     </div>
