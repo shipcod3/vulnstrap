@@ -101,5 +101,6 @@
         try { $(location.hash) } catch(e) {}
     })
     </script>
+    <script src="js/jquery.prettyPhoto.js"></script>
   </body>
 </html>
