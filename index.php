@@ -83,7 +83,7 @@
         <h2>Wanna Start Playing?</h2>
         <p>Just click the button to set it all up</p>
         <p>
-          <a class="btn btn-lg btn-primary" href="#">Click Me!</a>
+          <a class="btn btn-lg btn-primary" href="setup.php">Click Me!</a>
         </p>
       </div>
     </div>
