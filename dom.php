@@ -41,6 +41,8 @@
                 <li><a href="dom.php">Prepare to be DOM'ed</a></li>
                 <li class="divider"></li>
                 <li><a href="include.php">Include a File</a></li>
+                <li class="divider"></li>
+                <li><a href="items.php">Items</a></li>
               </ul>
             </li>
           </ul>
@@ -101,6 +103,5 @@
         try { $(location.hash) } catch(e) {}
     })
     </script>
-    <script src="js/jquery.prettyPhoto.js"></script>
   </body>
 </html>

@@ -41,6 +41,8 @@
                 <li><a href="dom.php">Prepare to be DOM'ed</a></li>
                 <li class="divider"></li>
                 <li><a href="include.php">Include a File</a></li>
+                <li class="divider"></li>
+                <li><a href="items.php">Items</a></li>
               </ul>
             </li>
           </ul>
@@ -81,7 +83,7 @@
 
       <div class="jumbotron jumbopacity">
         <h2>Wanna Start Playing?</h2>
-        <p>Just click the button to set it all up</p>
+        <p>Just click the button to set it all up (This will reset the DB for Vulnstrap)</p>
         <p>
           <a class="btn btn-lg btn-primary" href="setup.php">Click Me!</a>
         </p>
@@ -92,3 +94,4 @@
     <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
+l

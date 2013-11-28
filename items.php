@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Simple Vulnerable App Using Bootstrap as its Design">
     <meta name="author" content="Jay Turla, @shipcod3">
+
     <title>Vulnstrap</title>
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
@@ -12,6 +13,7 @@
   </head>
 
   <body>
+
     <div class="container">
       <div class="navbar navbar-inverse">
         <div class="navbar-header">
@@ -25,7 +27,7 @@
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li><a href="index.php">Home</a></li>
-            <li><a href="#about" data-toggle="modal">About Vulnstrap</a></li>
+            <li><a href="#about">About Vulnstrap</a></li>
             <li><a href="#">Credits</a></li>
             <li class="dropdown active">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Play Me! <b class="caret"></b></a>
@@ -79,14 +81,28 @@
       </div><!-- /.modal -->
 
       <div class="jumbotron jumbopacity">
-        <h3>I am vulnerable to Local File Inclusion (LFI) with filename.php?lol= :P</h3>
-        
-        <div class="inclusion">
-          <?php
-          include($_GET['lol']);
-          ?>
-        </div>
-      
+          <form action="#" class="form-horizontal" role="form">
+            <div class="form-group">
+              <label for="inputEmail3" class="control-label">Item No.</label>
+              <input type="text" class="form-control" placeholder="Item No.">
+            </div>
+
+            <div class="form-group">
+              <label for="inputEmail3" class="control-label">Item</label>
+              <input type="text" class="form-control" placeholder="Item">
+            </div>
+
+            <div class="form-group">
+              <label for="inputEmail3" class="control-label">Owner</label>
+              <input type="text" class="form-control" placeholder="Owner">
+            </div>
+
+           <div class="form-group">
+              <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </div>
+            </div>
+          </form>
       </div>
     </div>
 
