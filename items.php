@@ -81,20 +81,20 @@
       </div><!-- /.modal -->
 
       <div class="jumbotron jumbopacity">
-          <form action="#" class="form-horizontal" role="form">
+          <form method="post" action="insert_item.php" class="form-horizontal" role="form">
             <div class="form-group">
               <label for="inputEmail3" class="control-label">Item No.</label>
-              <input type="text" class="form-control" placeholder="Item No.">
+              <input type="text" class="form-control" placeholder="Item No." name="item_number">
             </div>
 
             <div class="form-group">
               <label for="inputEmail3" class="control-label">Item</label>
-              <input type="text" class="form-control" placeholder="Item">
+              <input type="text" class="form-control" placeholder="Item" name="item">
             </div>
 
             <div class="form-group">
               <label for="inputEmail3" class="control-label">Owner</label>
-              <input type="text" class="form-control" placeholder="Owner">
+              <input type="text" class="form-control" placeholder="Owner" name="owner">
             </div>
 
            <div class="form-group">
@@ -103,6 +103,35 @@
               </div>
             </div>
           </form>
+
+          <h2 class="inventory">My Inventories</h2>
+
+          <table class="table table-striped table-condensed table-hover">
+            <tr>
+              <th>Item Number</th>
+              <th>Item</th>
+              <th>Owner</th>
+            </tr>
+
+            <?php
+            include("config.php");
+
+            mysql_select_db("vulnex");
+
+            $sql="SELECT * FROM inventory order by item_number";
+            $result = mysql_query($sql);
+
+            while($row = mysql_fetch_array($result))
+            {
+              echo "<tr>";
+              echo "<td>" . $row['item_number'] . "</td>";
+              echo "<td>" . $row['item'] . "</td>";
+              echo "<td>" . $row['owner'] . "</td>";
+              echo "</tr>";
+            }
+
+          echo "</table>";
+            ?>
       </div>
     </div>
 
