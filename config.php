@@ -1,5 +1,5 @@
 <?php
-$con = mysql_connect("localhost", "username", "pass");
+$con = mysql_connect("localhost", "username", "password");
           
     if (!$con)
     {

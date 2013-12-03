@@ -8,7 +8,6 @@
     <title>Vulnstrap</title>
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
-
   </head>
 
   <body>
@@ -26,7 +25,7 @@
           <ul class="nav navbar-nav">
             <li><a href="index.php">Home</a></li>
             <li><a href="#about" data-toggle="modal">About Vulnstrap</a></li>
-            <li><a href="#">Credits</a></li>
+            <li><a href="#credits" data-toggle="modal">Credits</a></li>
             <li class="dropdown active">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Play Me! <b class="caret"></b></a>
               <ul class="dropdown-menu">
@@ -68,6 +67,62 @@
               <li>To play web pentesting eventhough using your mobile phone or your tablet</li>
               <li>For HP Fortify!</li>
             </ul>
+
+          </div>
+      
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+          </div>
+        </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+      </div><!-- /.modal -->
+
+      <!-- Modal for Credits -->
+      <div class="modal fade" id="credits" tabindex="-1" role="dialog" aria-labelledby="credits" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">X</button>
+            <h1 class="modal-title" id="myModalLabel">Credits</h1>
+          </div>
+          
+          <div class="modal-body">
+            <p>
+              <strong>@shipcod3 - Jay Turla</strong> - core dev
+            </p>
+
+            <p>
+              <strong><a href="http://owasp.org/">OWASP</a></strong> - for the great resources
+            </p>
+
+            <p>
+              <strong>DVWA and OWASP Mutillidae</strong> - my inspiration
+            </p>
+
+            <p>
+              <strong>ROOTCON</strong> - a great hacker conference
+            </p>
+
+            <p>
+              <strong><a href="http://www8.hp.com/us/en/software-solutions/software.html?compURI=1337262#.Up2Eu6pehzA">HP Fortify on Demand</a></strong> 
+              - a cool company where I work
+            </p>
+
+            <p>
+              <strong>Harris Solemnio</strong> - for the advises
+            </p>            
+
+            <p>
+              <strong>@semprix - Dax Labrador</strong> - awesome guy, l337 h4x0r from HP Fortify and founder of ROOTCON
+            </p>
+
+            <p>
+              <strong>@encrypted - Jayson Vallente</strong> - cool squad leader of Team Diana (HP Fortify)
+            </p>
+
+            <p>
+              <strong>HP Babes</strong> - if you know what I mean :)
+            </p>
 
           </div>
       
