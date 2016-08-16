@@ -12,7 +12,7 @@ Goals
 - For practicing your Web Fu Skills
 - For demo purposes
 - To play web pentesting eventhough using your mobile phone or your tablet
-- For HP Fortify!
+- For HP Fortify! (before but so sad they didn't supported this project LOL)
 
 Instructions
 ============
