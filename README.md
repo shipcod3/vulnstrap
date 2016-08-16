@@ -10,7 +10,7 @@ Goals
 =====
 - For demo purposes
 - For practicing your Web Fu Skills
-- For demo purposes
+- For lazy people who just want to click & click
 - To play web pentesting eventhough using your mobile phone or your tablet
 - For HP Fortify! (before but so sad they didn't supported this project LOL)
 
